@@ -14,6 +14,7 @@
   sudo apt-get update &&
   sudo apt-get install atom -y
   ```
+
 ## Config Atom
 
 Packages:

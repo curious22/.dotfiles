@@ -11,8 +11,8 @@
 
 32:
 ```
-sudo add-apt-repository ppa:webupd8team/ &&
-sudo apt-get update &&
+sudo add-apt-repository ppa:webupd8team/
+sudo apt-get update
 sudo apt-get install atom -y
 ```
 
@@ -24,8 +24,8 @@ Packages:
 `apm install linter`
 
 ```
-pip install flake8 &&
-pip install flake8-docstrings &&
+pip install flake8
+pip install flake8-docstrings
 apm install linter-flake8
 ```
 
@@ -63,5 +63,3 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
   - [Conda](http://conda.pydata.org/docs/)
   - [Awesome Python](http://awesome-python.com/)
   - [Awesome Django](http://awesome-django.com/)
-  - []()
-  - []()

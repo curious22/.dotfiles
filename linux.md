@@ -10,6 +10,8 @@
 
 - [My First 5 Minutes On A Server; Or, Essential Security for Linux Servers](https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)
 - [Linux Users and Groups](https://www.linode.com/docs/tools-reference/linux-users-and-groups)
+
+![Chmod Octal Format](https://www.linode.com/docs/assets/1502-octal-format-clarified.png)
 - [An Introduction to Linux Permissions | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-permissions)
 - [Памятка пользователям ssh](https://habrahabr.ru/post/122445/)
 

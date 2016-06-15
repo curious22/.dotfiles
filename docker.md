@@ -1,9 +1,19 @@
 # Docker knowledge
 
 ## Navigation
+1. [Commands](#commands)
 1. [Install](#install)
 2. [Problems](#problems)
 3. [Useful links](#useful-links)
+
+## Commands
+`docker run` - runs a container
+
+`docker ps` - Lists containers.
+
+`docker logs` - Shows us the standard output of a container.
+
+`docker stop` - Stops running containers.
 
 ## Install
 - [Instructions for installing Docker on Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntulinux/)

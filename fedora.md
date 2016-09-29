@@ -2,6 +2,7 @@
 
 ### Setups for developing 
 1. Python
+
 > Configs for python interpretator and related settings
 ```
 sudo dnf install gcc-python2-plugin -y

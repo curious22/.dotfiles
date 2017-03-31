@@ -13,8 +13,8 @@ echo "${BLUE}Global updating the system${NC}"
 dnf upgrade -y
 
 echo "${BLUE}Install a developing environment${NC}"
-dnf install -y gcc-python2-plugin gcc-python3-plugingcc-python3-plugin
-dnf install -y libxml2-devel libxslt-devel gcc libffi-devellibffi-devel
+dnf install -y gcc-python2-plugin gcc-python3-plugin gcc-python3-plugin
+dnf install -y libxml2-devel libxslt-devel gcc libffi-devel libffi-devel
 dnf install -y python-devel openssl-devel redhat-rpm-config
 dnf install -y htop guake bpython
 

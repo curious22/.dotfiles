@@ -204,3 +204,8 @@ bindsym Print exec scrot 'Pic_%a-%d%b%y_%H.%M.png' -e 'mv $f ~/Pictures/' --thum
 # Screen resolution
 exec --no-startup-id xrandr --output VGA-1 --mode 1920x1080
 exec --no-startup-id nitrogen --restore
+
+for_window [class="^.*"] border pixel 0
+gaps inner 10
+gaps outer 0
+smart_gaps on

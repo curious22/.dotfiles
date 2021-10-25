@@ -17,6 +17,7 @@ Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kyazdani42/nvim-web-devicons' " Icons
+Plug 'kyazdani42/nvim-tree.lua' " File Explorer
 
 " Themes
 Plug 'arcticicestudio/nord-vim' " Nord theme

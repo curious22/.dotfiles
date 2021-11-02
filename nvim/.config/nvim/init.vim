@@ -22,6 +22,8 @@ Plug 'kyazdani42/nvim-tree.lua' " File Explorer
 " Themes
 Plug 'arcticicestudio/nord-vim' " Nord theme
 Plug 'morhetz/gruvbox'
+Plug 'altercation/vim-colors-solarized'
+Plug 'ayu-theme/ayu-vim'
 
 Plug 'romgrk/barbar.nvim' " Tabs
 
@@ -34,9 +36,14 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kamykn/spelunker.vim'
 Plug 'kamykn/popup-menu.nvim'
 
+" Python
+Plug 'stsewd/isort.nvim', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
 
-colorscheme gruvbox
+let ayucolor="light"
+colorscheme ayu
+set background=light
 
 " Load plugins configs
 for f in split(glob('~/.config/nvim/plugin/*.vim'), '\n')
@@ -44,7 +51,7 @@ for f in split(glob('~/.config/nvim/plugin/*.vim'), '\n')
 endfor
 
 set nocompatible
-syntax on
+syntax enable
 set mouse=v
 set updatetime=100
 set showmatch

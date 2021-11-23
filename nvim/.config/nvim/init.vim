@@ -18,6 +18,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kyazdani42/nvim-web-devicons' " Icons
 Plug 'kyazdani42/nvim-tree.lua' " File Explorer
+Plug 'justinmk/vim-sneak'
 
 " Themes
 Plug 'arcticicestudio/nord-vim' " Nord theme
@@ -74,6 +75,7 @@ inoremap jk <ESC>
 
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:.
 set laststatus=2
+let g:sneak#label = 1
 
 " turn off search highlight
 nnoremap ,<space> :nohlsearch<CR>

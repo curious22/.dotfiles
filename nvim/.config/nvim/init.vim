@@ -27,6 +27,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'ayu-theme/ayu-vim'
 
 Plug 'romgrk/barbar.nvim' " Tabs
+Plug 'Pocco81/AutoSave.nvim'
 
 " Git plugins
 Plug 'tpope/vim-fugitive'
@@ -60,7 +61,7 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 set mouse=a
-set clipboard=unnamedplus " using system clipboard 
+set clipboard+=unnamedplus " using system clipboard 
 filetype plugin indent on
 set cursorline
 set ttyfast

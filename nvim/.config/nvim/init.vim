@@ -21,10 +21,7 @@ Plug 'kyazdani42/nvim-tree.lua' " File Explorer
 Plug 'justinmk/vim-sneak'
 
 " Themes
-Plug 'arcticicestudio/nord-vim' " Nord theme
 Plug 'morhetz/gruvbox'
-Plug 'altercation/vim-colors-solarized'
-Plug 'ayu-theme/ayu-vim'
 
 Plug 'romgrk/barbar.nvim' " Tabs
 Plug 'Pocco81/AutoSave.nvim'
@@ -38,14 +35,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kamykn/spelunker.vim'
 Plug 'kamykn/popup-menu.nvim'
 
-" Python
-Plug 'stsewd/isort.nvim', { 'do': ':UpdateRemotePlugins' }
-
 call plug#end()
 
-let ayucolor="light"
-colorscheme ayu
-set background=light
+colorscheme gruvbox
+set background=dark
 
 " Load plugins configs
 for f in split(glob('~/.config/nvim/plugin/*.vim'), '\n')
@@ -65,7 +58,6 @@ set clipboard+=unnamedplus " using system clipboard
 filetype plugin indent on
 set cursorline
 set ttyfast
-set termguicolors
 
 set hlsearch
 set ignorecase

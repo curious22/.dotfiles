@@ -24,7 +24,8 @@ Plug 'justinmk/vim-sneak'
 " Themes
 Plug 'morhetz/gruvbox'
 
-Plug 'romgrk/barbar.nvim' " Tabs
+" Plug 'romgrk/barbar.nvim' " Tabs
+Plug 'akinsho/bufferline.nvim'
 Plug 'Pocco81/AutoSave.nvim'
 
 " Git plugins
@@ -39,7 +40,7 @@ Plug 'kamykn/popup-menu.nvim'
 call plug#end()
 
 colorscheme gruvbox
-set background=dark
+set background=light
 
 " Load plugins configs
 for f in split(glob('~/.config/nvim/plugin/*.vim'), '\n')
